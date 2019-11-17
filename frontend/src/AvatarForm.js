@@ -39,7 +39,7 @@ class AvatarForm extends Component {
         this.props.addAvatar(this.state);
     }
  
-    // Works but this is not the way to submit a forms
+    // Works but this way of submitting a form through enter key press is bad I guess...
     // handleEnterKeySubmit(event){ // add another method to handle "Enter" key pressing to submit the form
     //     if (event.keyCode === 13){
     //         //event.preventDefault(); // Necessary, to prevent from default form submission, thus prevent from submitting form twice
